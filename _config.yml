@@ -1,0 +1,125 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Cristian M. Heredia T.
+title: I'm still learning
+email: cristianvoice@gmail.com
+website: x0cristian0x.github.io
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+twitter_username: cristian_xaos
+github_username:  x0cristian0x
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Cristian and I'm a student of Nutrition/ Dietetics. I also have a Bachelor's degree in Economics. My goal is to learn to use both knowledge to help people.
+
+  I am most skilled in: <mark>use of software statistics</mark>  <mark>Nutrition and health</mark>
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super project
+        link: https://tablascrecimiento.shinyapps.io/Tablas_D_Crecimiento/
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the great apps I'm creating, this project is about OMS growth charts.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>Shiny</mark> and it has since grown into in a app that go growth. I have learned many skills through this and been I'm very proud of having this in my portfolio. My goal with this project is to be able to detect the nutritional status of children under 5 years of age. At this moment the project is in testing.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Revista Cientifica Ciencia Medica
+        link: http://www.rccm-umss.com/
+        # link_text: boringcompany.com
+        sub_title: Journal Member - Peer-review
+        caption: November 2018 - 2019
+        quote: >
+          member of the scientific journal
+        description: | # this will include new lines to allow paragraphs
+            I was a member of the scientific journal, my role was to review the papers that health professionals sent to the journal. I also conducted member trainings on statistical methods and bioethics topics.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Mayor De San Simon University
+        caption: 2010 - 2016
+        sub_title: bachelor's degree in Economics
+        
+        description: | # this will include new lines to allow paragraphs
+          During my time in economics. I learn most of the key skills that I have acquired throughout my career, such as teamwork and the allocation of limited resources. I really enjoyed my time in economics and learned a lot about a healthy work-life balance.
+
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          
+          
+      - layout: left
+        title: Mayor De San Simon University
+        caption: 2017 - Present
+        sub_title: Student in Nutrition / Dietetics
+        
+        description: | # this will include new lines to allow paragraphs
+          In the process of my training I learned the importance of having a balanced life and a healthy mind. nutrition is important to prevent preventable diseases and reduce the cost in hospitals.
+
+          
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in data science, nutrition health, and know new technology some of my other interests and hobbies are:
+      - Run
+      - Gym
+      - Powerlifting
+      
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

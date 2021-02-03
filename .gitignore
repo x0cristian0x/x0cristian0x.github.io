@@ -1,4 +1,6 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+*.code-workspace
