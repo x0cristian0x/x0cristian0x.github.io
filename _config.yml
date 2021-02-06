@@ -125,7 +125,7 @@ content:
       - Powerlifting
       
       Look at this cool image  
-      ![Rabbits](/images/Rabbits.jpg "Rabbits")
+      ![Rabbits](/modern-resume-theme/images/Rabbits.jpg "Rabbits")
 
 # Footer
 footer_show_references: true
