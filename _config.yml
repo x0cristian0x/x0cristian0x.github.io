@@ -21,7 +21,7 @@ github_username:  x0cristian0x
 # Additional icon links
 additional_links:
 - title: Curriculum Vitae
-  icon: file-word
+  icon: far fa-file-word
   url: https://github.com/x0cristian0x/x0cristian0x.github.io/blob/main/cv.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -125,7 +125,7 @@ content:
       - Powerlifting
       
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/Rabbits.jpg "Rabbits")
+      [Trees](/modern-resume-theme/images/Rabbits.jpg "Rabbits")
 
 # Footer
 footer_show_references: true
