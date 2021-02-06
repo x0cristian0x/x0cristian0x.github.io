@@ -20,9 +20,9 @@ github_username:  x0cristian0x
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: Curriculum Vitae
+  icon: file-word
+  url: https://github.com/x0cristian0x/x0cristian0x.github.io/blob/main/cv.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -60,6 +60,23 @@ content:
           This is probably one of the great apps I'm creating, this project is about OMS growth charts.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>Shiny</mark> and it has since grown into in a app that go growth. I have learned many skills through this and been I'm very proud of having this in my portfolio. My goal with this project is to be able to detect the nutritional status of children under 5 years of age. At this moment the project is in testing.
+
+      - layout: top-middle
+        title: Predict Text
+        link: https://x0cristian0x.shinyapps.io/Predict_Text/
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is a project about predicting the next word you will write
+        description: | # this will include new lines to allow paragraphs
+          This is the final project of Coursera's data science specialization course. The goal is to predict the next word, just like smartphones.
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -108,7 +125,7 @@ content:
       - Powerlifting
       
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      ![Trees](/modern-resume-theme/images/Rabbits.jpg "Rabbits")
 
 # Footer
 footer_show_references: true
