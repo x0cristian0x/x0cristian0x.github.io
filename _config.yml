@@ -41,9 +41,11 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>use of software statistics</mark>  <mark>Nutrition and health</mark>
   
-  You can check my curriculum vitae weather you am interest in my : link_text: https://raw.githubusercontent.com/x0cristian0x/x0cristian0x.github.io/main/cv.pdf
+  You can consult my curriculum vitae if you are interested in me, my url: https://raw.githubusercontent.com/x0cristian0x/x0cristian0x.github.io/main/cv.pdf
   
-  here to be my curri site: <%= https://raw.githubusercontent.com/x0cristian0x/x0cristian0x.github.io/main/cv.pdf %>-site
+  here to be my curri site: 
+  -https://raw.githubusercontent.com/x0cristian0x/x0cristian0x.github.io/main/cv.pdf
+  
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
