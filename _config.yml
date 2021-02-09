@@ -40,7 +40,10 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Cristian and I'm a student of Nutrition/ Dietetics. I also have a Bachelor's degree in Economics. My goal is to learn to use both knowledge to help people.
 
   I am most skilled in: <mark>use of software statistics</mark>  <mark>Nutrition and health</mark>
-
+  
+  You can check my curriculum vitae weather you am interest in my : link_text: https://raw.githubusercontent.com/x0cristian0x/x0cristian0x.github.io/main/cv.pdf
+  
+  here to be my curri site: <%= https://raw.githubusercontent.com/x0cristian0x/x0cristian0x.github.io/main/cv.pdf %>-site
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
