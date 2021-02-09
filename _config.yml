@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Cristian M. Heredia T.
+name: Cristian M. Heredia
 title: I'm still learning
 email: cristianvoice@gmail.com
 website: x0cristian0x.github.io
@@ -128,11 +128,11 @@ content:
       - Gym
       - Powerlifting
       
-      Look at this cool image  
-      ![Rabbits](/modern-resume-theme/images/Rabbits.jpg "Rabbits")
+#      Look at this cool image  
+#      ![Rabbits](/modern-resume-theme/images/Rabbits.jpg "Rabbits")
 
 # Footer
-footer_show_references: true
+footer_show_references: FALSE
 # references_title: References on request (Override references text)
 
 # Build settings
