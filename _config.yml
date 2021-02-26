@@ -20,9 +20,13 @@ github_username:  x0cristian0x
 
 # Additional icon links
 additional_links:
-- title: Curriculum Vitae
+- title: CV Spanish
   icon: far fa-file-word
   url: https://github.com/x0cristian0x/x0cristian0x.github.io/blob/main/cv.pdf
+
+- title: CV English
+  icon: far fa-file-word
+  url: https://github.com/x0cristian0x/x0cristian0x.github.io/blob/main/cv_english.pdf
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -41,7 +45,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>use of software statistics</mark>  <mark>Nutrition and health</mark>
   
-  You can consult my curriculum vitae if you are interested in me, [here click](https://raw.githubusercontent.com/x0cristian0x/x0cristian0x.github.io/main/cv.pdf)
+  You can consult my curriculum vitae if you are interested in me, [Here click Spanish](https://raw.githubusercontent.com/x0cristian0x/x0cristian0x.github.io/main/cv.pdf) and  [Here click English](https://github.com/x0cristian0x/x0cristian0x.github.io/raw/main/cv_english.pdf)
   
 
   
